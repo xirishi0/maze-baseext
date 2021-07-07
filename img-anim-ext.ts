@@ -1,3 +1,4 @@
+//%icon="\uf008" color="#BCE190"
 namespace 动画{}
 namespace Helper{
     //------------- 旋转图像 -------------
