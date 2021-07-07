@@ -22,9 +22,6 @@ namespace Helper{
         tempVar.map[key] += val
     }
 
-    export let tempVar = new tempVarDic()
-    //------------ 临时变量end ------------
-
     //------------ promise ------------
     interface TimeAction {
         delay:number,
@@ -69,8 +66,6 @@ namespace Helper{
     }
 
     export let currentRequest:Request = null;
-    //------------ promise end ------------
-
     //------------- setTimeout -------------
     //% block="延迟 $time 秒后执行"
     //% time.defl=0.5
